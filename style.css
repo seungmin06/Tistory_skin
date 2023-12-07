@@ -1,0 +1,31 @@
+
+
+@font-face {
+    font-family: '영덕대게체';
+    src: url('./font/Yeongdeok_Snow_Crab.ttf') format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 최상위 요소 */
+
+#container {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.inner_header {
+    background-color: rgb(145, 255, 0);
+}
+
+.logo {
+    background-color: beige;
+    font-family: '영덕대게체';
+    text-align: center;
+}
+
